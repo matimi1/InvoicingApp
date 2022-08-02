@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+} 
+
+.userdetails__section {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.userdetails__box {
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    margin: 2.5%;
+    gap: 2%;
+
+    flex-direction: column;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #0275d8;
+    border-width: 1px;
+    padding: 1rem;
+
+    button {
+        margin-top: 2%;
+        margin-left: 2%;
+        width: 20%;
+    }
+
+    .userdetails__container {
+        justify-content: space-between;
+        display: flex;
+        
+        gap: 20%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .userdetails__detail {
+        margin-top: 1rem;
+    }
+
+.userdetails__address {
+    display: flex;
+    gap: 2%;
+    margin-top: 2.5%;
+    flex-direction: column;
+    
+}
+}
+
+

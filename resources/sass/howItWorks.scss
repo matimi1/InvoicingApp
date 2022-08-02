@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.HowItWorks__mainContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    gap: 10%;
+    height: auto;
+
+    .HowItWorks__container_picture {
+        width: 50%;
+        border-radius: 8px;
+
+        img {
+            margin: 0;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+
+
+    .HowItWorks__container__steps {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        justify-content: space-around;
+        width: 50%;
+
+        .HowItWorks__container_step {
+            display: flex;
+            width: 100%;
+            gap: 10%;
+            justify-content: space-around;
+
+            .HowItWorks__step_iconContainer {
+                display: flex;
+                width: 30%;
+                // height: 30%;
+
+                border-radius: 50%;
+                align-items: center;
+                justify-content: center;
+
+
+                .HowItWorks__step_icon {
+                    width: 45%;
+                    height: 45%;
+                }
+
+                .HowItWorks__step_textContainer {
+                    display: flex;
+                    flex-direction: column;
+
+                }
+
+            }
+        }
+
+    }
+
+}
